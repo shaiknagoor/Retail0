@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Retail</string>
+    <string name="title_activity_home_screen">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_cart">Shoppingcart</string>
+    <string name="error_valid_username_password"></string>
+</resources>

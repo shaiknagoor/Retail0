@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.retail.RegistrationScreen">
+    <include layout="@layout/tool_bar"></include>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:text="User Registration "
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="25dp"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:id="@+id/tx1"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditText
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/userName_et"
+            android:hint="Username*"
+            android:textStyle="bold"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_above="@+id/Email_et1"
+
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:id="@+id/Email_tx1"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditText
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Email_et1"
+            android:hint="Email(Optional)"
+            android:textStyle="bold"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_above="@+id/Mobile_et1"
+
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:id="@+id/Moblie_tx1"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditText
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Mobile_et1"
+            android:hint="Mobile Number*"
+            android:textStyle="bold"
+            android:ems="10"
+            android:inputType="phone"
+            android:layout_above="@+id/Password_et2"
+
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:gravity="center"
+        android:id="@+id/tx2"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Password_et2"
+            android:hint="Password*"
+            android:textStyle="bold"
+            android:ems="10"
+            android:inputType="textPassword"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:id="@+id/Conf_Passwd_tx1"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditText
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/conform_password"
+            android:hint="Conform Passoword*"
+            android:textStyle="bold"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_above="@+id/Password_et2"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_btn"
+        android:text="SIGNUP"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FF5700"
+        android:background="@color/Amber"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        />
+
+
+</LinearLayout>
